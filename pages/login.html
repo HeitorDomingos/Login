@@ -4,19 +4,36 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Login</title>
-	<link rel="stylesheet" href="../css/estilo">
+	<link rel="stylesheet" href="../css/estilo.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
-	<h1>Bem Vindo a Tela de Login</h1>
-	<div class="form">
-		<form action="login_submit" method="get" accept-chars>	
-			<input type="text" name="usuario" value="Usuário" placeholder="Usuario"><br>
-			<input type="password" name="password" value="Senha" placeholder="">
-			<input type="submit" name="Entrar" value="Entrar">
-		</form>	
-	</div>
+	<div class="container">
+	
+		<div class="form-login">
+			<h1>Bem Vindo a Tela de Login</h1>
+			<form action="login_submit" method="get" accept-chars>	
+				<input  id="usuario" type="text" value="" placeholder="Usuario"><br>
+				<input class="input"id="password" idtype="password" value="" placeholder="123456">
+				<button class="btn btn-success"type="submit">Entrar</button>
+			</form>	
+
+			<div class="">
+			<h3 class="instrucao">Sua senha deve estar de acordo com os passos abaixo:</h3>
+			<ul>
+				<li>Ter no mínimo 6 caracteres</li>
+				<li>Ter pelo menos uma letra maiúscula</li>
+				<li>Ter pelo menos um caractere especial</li>
+			</ul>
+				
+			</div>
+		</div>
+	
 	<footer class="footer">
-		
+		<h1>Desenvolvido por Heitor Domingos</h1>
 	</footer>
+	</div>
+</div>
+<script src="../js/login.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

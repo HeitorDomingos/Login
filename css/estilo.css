@@ -1,6 +1,17 @@
+.form-login{
+
+	position: absolute;
+	color: #777;
+	background-color: lavender
+}
+.container{	
+	background: lightgray;
+}
 .form{
 	color: red;
 }
 .footer{
-	color: red;
+	margin-top: 80%;
+	background-color: black;
+	color: #FFF;
 }
